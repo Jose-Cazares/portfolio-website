@@ -9,7 +9,7 @@ nav{
     /* background-color: rgb(47, 31, 77); */
     background-image: linear-gradient(to right, rgb(24, 3, 63), rgb(20, 30, 88));
     color: white;
-    padding: 18px 0;
+    padding: 15px 0;
 }
 
 .logo{
@@ -28,6 +28,28 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Roboto Mono", monospace;
+}
+
+.hero {
+    background-color: rgb(207, 230, 238);
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.hero-left .one{
+    font-size: 60px;
+}
+
+.hero-left .two{
+    font-size: 40px;
+}
+
+.bold{
+    font-weight: bold;
 }
