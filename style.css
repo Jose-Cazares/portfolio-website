@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around; 
+    /* background-color: rgb(47, 31, 77); */
+    background-image: linear-gradient(to right, rgb(24, 3, 63), rgb(3, 14, 74));
+    color: white;
+    padding: 18px 0;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 17px; 
+
+}
+
+nav ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
