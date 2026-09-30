@@ -7,24 +7,27 @@ nav{
     display: flex;
     justify-content: space-around; 
     /* background-color: rgb(47, 31, 77); */
-    background-image: linear-gradient(to right, rgb(24, 3, 63), rgb(3, 14, 74));
+    background-image: linear-gradient(to right, rgb(24, 3, 63), rgb(20, 30, 88));
     color: white;
     padding: 18px 0;
 }
 
 .logo{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 nav ul{
     display: flex;
     gap: 17px; 
+    align-items: center;
 
 }
 
 nav ul li{
     list-style-type: none;
     font-size: 18px;
+    font-family: "Roboto Mono", monospace;
 }
