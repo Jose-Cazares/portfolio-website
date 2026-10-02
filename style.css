@@ -53,3 +53,21 @@ nav ul li{
 .bold{
     font-weight: bold;
 }
+
+.hero-right img{
+    border-radius: 40px;
+}
+
+.btn-container{
+    padding: 9px 0;
+}
+
+.hero-left .btn{
+    background-image: linear-gradient(to right, rgb(50, 50, 122), rgb(68, 4, 68));
+    color: white;
+    padding: 7px 9px;
+    border: 2px solid purple;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+}
