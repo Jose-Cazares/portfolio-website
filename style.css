@@ -72,6 +72,12 @@ nav ul li {
     font-size: 18px;
 }
 
+.btn:hover{
+    background-image: none;
+    background-color: red;
+    transition: background-color 1s ease;
+}
+
 .project {
     display: flex;
     align-items: center;
@@ -100,7 +106,7 @@ nav ul li {
     padding-bottom: 10px;
 }
 
-.project-info 
+
 
 
 
@@ -110,4 +116,12 @@ nav ul li {
 
 .row-reverse{
     flex-direction: row-reverse;
+}
+
+footer{
+    background-color: rgb(19, 2, 44);
+    padding: 40px;
+    color: white; 
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
