@@ -33,6 +33,17 @@ nav ul li {
     font-family: "Roboto Mono", monospace;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(100, 138, 171);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
 .hero {
     background-color: rgb(207, 230, 238);
     height: 85vh;
